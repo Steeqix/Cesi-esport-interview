@@ -1,0 +1,141 @@
+:root {
+    --primary-color: #313563;
+    --secondary-color: #93c5fd ;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --light-bg: #f5f5f5;
+    --card-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--light-bg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.intro {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.intro p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 1.1rem;
+}
+
+.featured-image {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.interview-section {
+    background-color: white;
+    padding: 40px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+.question {
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.answer {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.answer p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+.bds {
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+.conclusion {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .interview-section {
+        padding: 20px;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .question {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Interview avec ChapeauPointu - CESI ESPORT</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>CESI ESPORT présente</h1>
+        <h2>Interview avec ChapeauPointu</h2>
+        <p>Communication Lead Berlin pour la Karmine Corp, anciennement Social Manager chez BDS</p>
+    </div>
+</header>
+
+<div class="container">
+    <section class="interview-section">
+        <p>Dans le cadre de mon projet citoyen et de mon association CESI ESPORT, j'ai eu l'opportunité d'échanger avec ChapeauPointu, actuel Communication Lead Berlin pour la Karmine Corp et anciennement Social Manager chez BDS. Nous avons abordé divers sujets, notamment les métiers dans l'esport et l'importance de l'inclusivité dans ce secteur. (Cette interview a été réalisée avant qu'il ne rejoigne la prestigieuse Karmine Corp.)</p>
+
+        <img class="featured-image" src="/img/Image1.jpg" alt="Photo de ChapeauPointu lors de la victoire de la KarmineCorp au winter Split LEC">
+        <div class="image-caption">Figure 1: Photo de ChapeauPointu lors de la victoire de la KarmineCorp au winter Split LEC</div>
+
+
+
+        <div class="question">Pourrais-tu te présenter ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Je m'appelle Martin Kréher, mais je suis principalement connu
+                sous le nom de Chapeau Pointu. Je suis Social
+                Manager et Producer chez Team BDS, une équipe esport suisse, depuis fin 2021.</p>
+        </div>
+
+        <div class="question">Quels sont les principaux défis de gestion des réseaux sociaux pour une équipe d'esport ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Les principaux défis sont avant tout de rester à jour sur l'actualité, de connaître les tendances et de savoir ce qui plaît au public pour pouvoir l'adapter à l'univers de l'esport.</p>
+            <p>L'un des plus gros défis est de réussir à intégrer des éléments extérieurs à l'esport – des sujets qui intéressent le grand public – afin d'élargir notre audience. L'objectif est de rendre l'esport plus accessible et d'attirer une fanbase plus large.</p>
+            <p>Un autre défi majeur est de savoir s'adapter aux résultats de l'équipe. Une victoire ou une défaite peut complètement changer la direction de la communication. Il faut être réactif et ajuster notre ton et nos messages en fonction de la situation.</p>
+            <p>Enfin, il y a l'adaptation aux nouveautés, qu'elles soient technologiques – comme l'IA, qui a un impact encore limité – ou liées aux outils que nous utilisons. Cela inclut des logiciels d'analyse de statistiques, qui permettent de mieux comprendre notre audience, ou encore des outils de montage pour proposer un contenu plus qualitatif. Il faut aussi suivre l'évolution des plateformes, comme les nouveaux formats sur Twitter ou d'autres réseaux sociaux, pour toujours proposer des posts pertinents et engageants.</p>
+        </div>
+
+        <div class="question">Comment l'équipe TEAM BDS utilise un storytelling pour renforcer l'attachement des fans à l'équipe ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – BDS n'ayant pas d'influenceur en tant que figure de proue, son storytelling repose principalement sur ses joueurs et son contenu. L'idée est de créer des histoires à travers eux et l'équipe dans son ensemble.</p>
+            <p>Un exemple concret est le fait d'avoir conservé quasiment le même roster pendant deux ans, à une exception près (Juš "Crownie" Marušič). Dès la première année, cette équipe, composée en grande partie de rookies et de joueurs que l'on n'attendait pas à ce niveau, a réussi à aller très loin. Ce parcours a permis de créer un storytelling basé à la fois sur la performance et sur la proximité avec les fans.</p>
+            <p>En LEC, notre objectif était d'humaniser nos joueurs et de créer un lien avec les supporters. Contrairement à un influenceur que l'on suit individuellement sur la durée, nous avons cherché à reproduire cette dynamique avec cinq joueurs. Nous avons mis en avant leurs relations, notamment le duo Nuc et Sheo, mais aussi l'intégration des nouveaux, comme Yoon "Ice" Sang-hoon. Même s'il semblait timide au départ, nous avons réussi à l'impliquer dans du contenu TikTok et d'autres formats, ce qui a permis aux fans de voir son évolution et son adaptation.</p>
+            <p>Le storytelling repose donc principalement sur la mise en avant des joueurs et leur humanisation. L'idée n'est pas seulement de montrer des moments en jeu, mais aussi leur quotidien, leur humour et leur personnalité, ce qui les rend très attachants.</p>
+            <p>Cela n’a pas été une stratégie imposée, mais plutôt une adaptation naturelle à ce que les joueurs dégageaient. Ce modèle ne fonctionne pas forcément avec toutes les équipes ou tous les joueurs, mais il est toujours possible de trouver un angle qui leur correspond. Certains joueurs, comme Striker, peuvent être perçus comme très stricts, mais en montrant aussi leur côté drôle, on joue sur plusieurs facettes pour créer une image plus complète.</p>
+            <p>Depuis le début, l’objectif a toujours été le même : humaniser les joueurs pour raconter une histoire et créer une connexion avec les fans.</p>
+        </div>
+
+        <img class="bds" src="/img/Image2.png" alt="Logo Team BDS">
+        <div class="image-caption">Figure 2: Logo Team BDS</div>
+
+        <div class="question">Ça ne va pas être dur de devoir recréer toute une relation avec les nouveaux joueurs de l'année prochaine ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – – Pour être franc, la seule chose qui m'inquiète un peu, c'est que j'ai passé 3 ans avec les joueurs actuels et je n'ai eu que 2 mois où je n’étais pas avec eux. Du coup, je vais avoir un peu moins de proximité avec les nouveaux joueurs. Cependant, je suis quelqu’un de très humain et je pense que je m’adapte facilement aux personnes, donc je ne m’inquiète pas du tout. Je suis plutôt confiant que ça se passera bien</p>
+            <p>L'idée, c’est de simplement montrer qui ils sont réellement. Il manque souvent cela dans de nombreuses équipes : trop peu de contenu qui donne un vrai aperçu de la vie des joueurs, trop peu d’interactions entre eux. Quand je parle d’inside, ce n'est pas forcément des vidéos comme celles que la Karmine fait avec les Karmine Life ou des formats très travaillés, mais plus un suivi quotidien des joueurs. Il faut montrer des moments plus naturels, moins scénarisés, et capturer ce que les joueurs ont vraiment envie de partager.</p>
+            <p>Je pense que beaucoup d’équipes ne prennent pas le temps de demander aux joueurs quel type de contenu ils aimeraient faire avant de le lancer. C'est quelque chose qu’on a toujours privilégié chez BDS et ça fait toute la différence dans la manière de créer une vraie connexion avec les fans.</p>
+        </div>
+
+        <div class="question">En tant que spectateur, je trouve que ce que tu as pu réaliser était vraiment bénéfique parce que je me suis vraiment attaché à Ilias "NUC" Bizriken et je continue à le suivre avec ses lives, etc. Alors que je ne supporte pas TEAM BDS. Est-ce que c'était un objectif de donner cette envie aux spectateurs de continuer à suivre les joueurs ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Pour moi, c’est l’objectif principal d’un social manager. Je ne sais pas si c’est l’objectif de tous les social managers, en tout cas dans l’esport, mais c’est vraiment comme ça que je le vois. J’ai passé du temps avec eux et je sais à quel point ça peut avoir un impact. C’est aussi important pour les joueurs, car souvent, ils ne se rendent pas vraiment compte à quel point leur vie peut changer, surtout si leurs performances ne suivent pas. Je ne veux pas qu’ils quittent BDS sans autre solution derrière.</p>
+            <p>L’idée, c’est de leur donner des options pour l’avenir, comme le streaming ou devenir influenceur. Il est essentiel de leur permettre de créer une vraie identité et de se constituer une base de fans. Le contenu qu’on crée est une aide énorme à cela. Même si parfois les joueurs ne sont pas super enthousiastes à l’idée de faire certaines choses, même s’ils font semblant de ne pas aimer, c’est crucial. Ça leur permet de se construire une image et, à long terme, d’avoir une porte de sortie. Parce qu’au final, la plupart sont très jeunes, et il faut les aider à voir toutes les possibilités qu’ils peuvent avoir au-delà de l’esport.</p>
+        </div>
+
+        <div class="question">Quelles compétences spécifiques sont nécessaires pour travailler dans les médias sociaux dans l'esport ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Moi, j'ai des compétences qui sont un peu plus variées, on va dire. La première qui est cependant obligatoire va être de faire de la veille, c'est-à-dire vérifier l'actualité pour s'adapter, donc les trends, de regarder des TikTok ou n'importe quoi, regarder Twitter, savoir ce qui se passe, etc. Le reste va plus être des outils qui vont plus ou moins aider, donc il faut savoir utiliser des outils tels que Photoshop, Premiere Pro, qui vont permettre du coup aux social managers de pouvoir réaliser par eux-mêmes leurs memes et ne pas avoir besoin d’aide de graphistes ou autres. C’est quelque chose qui est vraiment très pratique, principalement pour s’exprimer.</p>
+            <p>Après, on va avoir les outils basiques de communication qui ne sont pas forcément des outils techniques, mais savoir parler anglais, pouvoir faire des tweets, savoir exactement comment écrire un tweet ou des posts. Je pense tweet, parce que Twitter est le principal réseau utilisé. Après, ce sont plus des outils de compréhension, comme j'ai dit, savoir ce qui se passe autour, savoir ce qui peut marcher, savoir ce qui ne peut pas marcher, comprendre les réactions aussi, si des gens ont aimé ou si les gens n’ont pas aimé. Principalement pourquoi ils n’ont pas aimé. Je pense que ce n’est pas un métier qui a besoin d’outils, mais un métier qui a surtout besoin de compréhension. Je pense qu’avoir de l’humour sera également un trait important.</p>
+        </div>
+
+        <div class="question">Y'a-t-il déjà eu des contenus que tu as abandonnés ou refusé de publier ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – J'ai un seul contenu où je suis sûr qu'on ne l’a jamais sorti. Mais c’était parce que c’était trop cringe. C’était Nuc et Sheo qui lisaient une fanfiction. À part ça, il y a quelquefois où je peux me dire finalement qu’une idée n’est pas drôle. Ce qu’on va laisser de côté, ça va plus être des choses où l’on se dit « Ah finalement, c'est trop tard ». Parfois, on a du contenu en stock qu’on garde pour plus tard. La vidéo avec la Karmine où on inverse la vidéo d’annonce. On l’avait préparée au winter, mais comme on n’avait pas gagné, on a pu la sortir que plus tard.</p>
+        </div>
+
+        <div class="question">Est-ce que la diversité est bien représentée dans l'esport ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Chez BDS en LEC, il n’y a qu’une seule femme dans l’ensemble du groupe, et cette personne est coach sportif. En général, il est très rare de voir des personnes d’un autre genre que masculin dans l’esport. Je pense que cela est dû notamment à l’image classique du jeu vidéo, imprégnée d’une représentation masculine, ce qui constitue un blocage pour les personnes d’autres genres souhaitant rejoindre le milieu de l’esport. L’image véhiculée est : « les jeux vidéo sont masculins, les autres faites autre chose ».</p>
+            <p>Quand je reçois des CV, il est également très rare d’en recevoir provenant de personnes d’un autre genre que masculin. Je pense qu’un des gros problèmes de l’esport est que la majorité des gens qui travaillent dans ce milieu y sont depuis très longtemps. De ce fait, les emplois dans l’esport sont souvent attribués en se basant sur l’expérience dans le domaine, en considérant que "expérience = compétence". Ce raisonnement est faux, car il existe des « rookies » qui méritent leur place, et certaines personnes en poste actuellement ne sont pas suffisamment compétentes. Tout cela bloque l’arrivée de nouveaux profils, notamment des femmes.</p>
+            <p>Nous voyons de plus en plus de femmes, mais elles occupent souvent les mêmes postes, comme celui d’arbitre. Je travaille avec beaucoup de femmes en freelance, et c’est très positif. Cependant, je n’en vois toujours pas assez, car, comme je l’ai mentionné, de nombreux emplois sont occupés depuis très longtemps par les mêmes personnes qui bloquent l’accès aux postes.</p>
+            <p>Je suis pour un changement dans l’esport, peu importe le genre, car il faut transformer le système classique, très masculin, cisgenre et hétéro dans les rôles de leadership. Dès qu’il y a du changement, c’est bénéfique. J’espère que d’ici un an, il y aura des évolutions. J’en vois déjà émerger dans plusieurs équipes, et j’espère que nous pourrons prôner une mixité égale.</p>
+            <p>Je trouve que les Game Changers ne sont pas assez mis en avant, et j’aimerais qu’ils le soient davantage. Ils devraient être placés au même niveau que les VCT et la LEC. Malheureusement, le problème ne vient pas seulement du manque de communication, il y a également un manque de public. Le public, c’est la société, et la société fait que les gens, consciemment ou inconsciemment, critiquent, refusent de suivre et font des remarques sexistes.</p>
+            <p>C’est le même problème sur LoL. C’est un sujet sur lequel j’aimerais bien travailler, pour le mettre en avant et mettre davantage de personnes en lumière. L’esport devrait être l’un des premiers milieux à s’affranchir des inégalités.</p>
+        </div>
+
+        <div class="question">Est-ce que tu as les moyens et la possibilité de faire changer les choses ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Il y a beaucoup de choses que j’aimerais faire et apporter, mais le principal problème est le manque de temps. Nous sommes très peu nombreux chez BDS en tant que community managers. Nous étions deux, voire trois durant l’année (deux plus un stagiaire), et nous avons cinq jeux à gérer.</p>
+            <p>J’aurais aimé avoir autant de temps pour m’occuper de la LEC et de la Coupe des étoiles, et leur accorder la même importance. Pour moi, cela fait partie du job : que ce soit du Trackmania, du LoL, les GC ou même un champion de Rubik’s Cube, la communication devrait être égale partout. J’ai toujours essayé d’en faire autant pour la LEC, mais c’était compliqué, car je n’étais pas avec les joueuses.</p>
+            <p>C’est quelque chose que j’aurais aimé pouvoir faire : avoir plus de temps pour m’y consacrer pleinement et assurer un suivi de match équivalent sur tous les jeux. Je ne pense pas seulement aux ligues féminines, mais aussi à d’autres jeux qui ont été mis de côté, comme FIFA et Trackmania. Faute de temps, nous sommes obligés d’établir des priorités en fonction des statistiques, ce qui pénalise forcément certains jeux.</p>
+            <p>Je suis content d’avoir fait l’effort, pour certains matchs, de m’être donné à fond afin de donner une bonne image.</p>
+        </div>
+
+        <div class="question">Trouves-tu qu'il y'a eu une amélioration au niveau de la diversité dans le milieu de l'esport ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Il y a eu une amélioration, notamment au niveau des structures et des compétitions. Nous avons également vu de plus en plus de fans, notamment grâce à la Karmine Corp, ce qui est une très bonne chose.</p>
+            <p>Ce qui m’inquiète maintenant, c’est l’année prochaine. Je pense que beaucoup d’équipes vont disparaître et que l’esport va entrer dans une année de transition. Pendant un an, les équipes devront limiter leurs dépenses, et je pense que les Game Changers vont en pâtir. Mais pour l’instant, je trouve que les choses vont dans la bonne direction.</p>
+            <p>Je vois de plus en plus d'équipes produire des documentaires et mettre cela en avant. Il y a encore des améliorations à apporter sur la manière dont c'est fait, mais je suis content qu'il n'y ait pas eu de régression. De plus, les équipes communiquent de plus en plus sur la mentalité à adopter et interviennent en cas de débordements. Enfin, certaines le font bien, mais il reste encore des structures qui ont du mal à communiquer sur ce sujet.</p>
+            <p>Il ne s'agit pas seulement d'améliorations progressives ; à un moment donné, il faut faire comprendre aux gens qu'ils doivent évoluer. Cela ne peut être qu'une amélioration continue, mais à cause des problèmes financiers, il y aura probablement des régressions.</p>
+        </div>
+
+        <div class="question">Quel est le contenu qui marche le plus sur les réseaux et qu'est-ce qui vous plait le plus ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Ce qui nous plaît le plus, ce sont tous les contenus drôles, où nous n'avons pas besoin de faire beaucoup d'acting. Tous les contenus sont compliqués à produire, mais ce que nous adorons faire, ce sont les TikToks. Je sais déjà ce qui peut et va fonctionner. En plus, comme je m'occupe des tournages, je suis proche des joueurs.</p>
+            <p>Nous tournions tous les mercredis, pendant une heure après les scrims. Les joueurs savaient qu'ils avaient TikTok ce jour-là, et ça ne les dérangeait pas.</p>
+            <p>Parmi les contenus qui marchent, on retrouve ceux inspirés des formats américains, comme Deviner les imposteurs. Ce sont des contenus simples à réaliser, à partir du moment où l'on trouve des personnes prêtes à y participer. Même si cela prend du temps, c'est facile à filmer. Les joueurs n'ont pas besoin de faire grand-chose, il suffit juste de les pousser à parler.</p>
+            <p>Cette année, nous avons essayé d'innover avec des formats différents. Par exemple, nous avons réalisé un cache-cache qui devait initialement sortir au Winter, mais qui a finalement été diffusé en fin de saison. Malheureusement, comme il est sorti à ce moment-là et que tous les joueurs étaient sur le départ, la réception n'a pas été la même, alors que c'est un contenu vraiment sympa à regarder.</p>
+            <p>Je pense aussi aux <a href="https://www.youtube.com/watch?v=0v-E3b8JTEQ">ZEN<a>. Ce sont les contenus que j'aime le plus écrire. J'écris tout, puis les joueurs innovent, improvisent, et surtout, c'est en français, donc nous n'avons pas de souci de langue. On essaie de faire participer tous les joueurs. C'est cool, c'est drôle, et ils ne savent pas trop à quoi s'attendre, ce qui ajoute au fun.</p>
+            <p>Un autre format important, ce sont les entrées des joueurs. Ils savent que ça va durer un bon moment, parfois de 17h à 23h, mais il y a toujours des éléments funs, comme des voitures ou d’autres surprises qu’ils apprécient.</p>
+            <p>Nous sommes l’une des équipes qui filme le plus, mais sans pour autant embêter nos joueurs.</p>
+            <p>En revanche, certaines vidéos n’ont pas été réalisées comme elles auraient dû l’être. Par exemple, nous voulions faire des talks avec les joueurs en train de manger. À la base, ce n’était pas censé se passer comme ça du tout. C’est le contenu dont je suis le plus déçu, car il me tenait particulièrement à cœur. L’inspiration venait d’Anthony Bourdain, un chef cuisinier exceptionnel que j’adore. Mais au final, ce n’était pas assez humain, c’était trop scripté. Je n’étais pas là pour m’en occuper, mais c’est pourtant l’un des formats que nous aimons le plus.</p>
+            <p>Il y a très peu de soucis, les joueurs sont très à l’aise avec ça, même si parfois ils se posent des questions sur ce que nous faisons et pensent que ce n’est pas une bonne idée.</p>
+            <p>Nous leur disons : On fait notre job, nous ne proposerons jamais un contenu qui pourrait leur nuire. S’ils le souhaitent, nous pouvons en débattre après le tournage (et bien sûr, avant aussi, mais en général, nous sommes assez confiants sur ce que nous faisons).</p>
+        </div>
+
+        <img class="featured-image" src="/img/Image3.jpg" alt="Miniature du ZEN avec Adam, Nuc, Sheo">
+        <div class="image-caption">Figure 3: Miniature du ZEN avec dans l'ordre de gauche à droite, Adam, Nuc, Sheo</div>
+
+        <div class="question">Chez BDS, tu as pu réaliser des vidéos avec Nuc et Sheo. Le fait de pouvoir les faire avec ce duo était-il plus simple ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Absolument. Nuc est mon voisin, et Sheo est le voisin de Nuc. J'ai donc littéralement passé deux ans à côté d'eux. Nous sommes potes, mais je les considère vraiment comme des frères, surtout Nuc, avec qui je travaille depuis trois ans.</p>
+            <p>On est très proches, et ils sont extrêmement drôles. À chaque fois qu'on tournait un contenu avec eux, ils restaient totalement naturels. L'objectif était simplement de montrer à quel point ils sont drôles. Sheo est super pertinent, ils sont incroyables pour sortir des vannes, et leur alchimie est évidente.</p>
+            <p>Cela dit, ils sont aussi un peu têtus, ce sont des gosses ! Ce qui peut rendre les tournages compliqués... pas compliqués, mais ils adorent nous prendre la tête. Mais au final, oui, ça aide vraiment de travailler avec eux.</p>
+            <p>Je n'ai jamais eu de problème parce que c'est nous qui nous adaptons à eux. Ce n'est pas aux joueurs de s'adapter. Ils sont "rois" dans le sens où ils doivent nous écouter et nous respecter, bien sûr, mais si on veut sortir un bon contenu, c'est à nous de nous adapter à leur personnalité. On ne va pas leur forcer un comportement qui ne leur ressemble pas. C'est pour ça que c'est génial de bosser avec eux : ils ont des personnalités atypiques, et on sait que les gens vont les adorer. C'est impossible de ne pas les aimer humainement.</p>
+            <p>C’est pareil pour les autres joueurs, mais Nuc et Sheo sont le duo parfait : deux "gosses" très cons, très drôles.</p>
+            <p>Je pense notamment aux ZEN. Leur seul rôle était d’assurer les transitions : on savait à peu près quand on allait faire intervenir certains éléments et à quel moment j’allais entrer en scène. Ils avaient juste à lancer le "go" avec deux ou trois mots, mais ils ne savaient pas exactement ce que j’allais faire. En attendant, ils devaient animer et interagir avec Adam et Striker. Les deux fois où on l’a fait, ils ont été parfaits. Ils ont carry le contenu.</p>
+            <p>Il n’y a pas d’autres joueurs avec qui j’aurais pu faire ça. Il fallait impérativement deux Français, avec le même humour, capables d’improviser, d’être drôles et de tenir la longueur. Mais au-delà de ça, c’est aussi l’état d’esprit de l’équipe qui rend ça possible. Si Nuc et Sheo interagissent de cette manière avec Striker ou Adam, c’est parce que toute l’équipe fonctionne comme ça.</p>
+            <p>Et ça, c’est trop cool.</p>
+            <p>Je pense que c’est la meilleure équipe que j’aurai. C’est un peu triste de le dire, mais ça ne veut pas dire que je vais faire moins de contenu. Ce qu’on a vécu ensemble, c’était incroyable.</p>
+            <p>Ce que je trouve génial avec tous les joueurs, c’est qu’ils sont hyper cools. Je pouvais aller les voir après un match ou un scrim et leur demander de filmer quelque chose rapidement. Ils acceptaient sans problème, parce qu’ils savent que quand on leur dit que c’est rapide, c’est vraiment rapide. On ne veut pas les déranger en leur imposant trop de contraintes. On est hyper clean et très proches d’eux.</p>
+            <p>Par exemple, on est présents à tous les media days. Quand un joueur est en interview, je suis avec lui pour m’assurer qu’il n’y a aucun débordement ou problème.</p>
+            <p>Les media days, ce sont des journées de 8h à 21h (parce que la LEC ne sait pas gérer son planning, clairement). Je les suis de 8h à 21h, même si je n’ai pas forcément de raison d’être là, juste pour qu’ils ne soient pas seuls.</p>
+            <p>Parfois, ils avaient des aftershows jusqu’à minuit, et je restais avec eux. Je restais avec Nuc, avec Adam... Ils voyaient qu’on n’était pas juste là pour les filmer et leur demander de faire les clowns. On était là pour les accompagner, les aider.</p>
+            <p>Et ça, c’est super important à mes yeux : créer des liens avec les joueurs.</p>
+        </div>
+
+        <div class="question">As-tu pu gouter les msemen de Zack Nani lors de ton passage à Paris ?</div>
+        <div class="answer">
+            <p><strong>ChapeauPointu</strong> – Malheureusement je n'en ai pas eu l'occasion.</p>
+        </div>
+        <div class="conclusion">
+        <p>Un grand merci à ChapeauPointu pour sa confiance et le temps qu'il nous a accordé. Vous pouvez suivre son travail sur le compte officiel de la Karmine Corp,
+            ainsi que sur ses réseaux sociaux : @ChapeauPointu sur <a href="https://www.instagram.com/chapeaupointu_/">Instagram</a> et <a href="https://x.com/ChapauPointu" >Twitter</a> </p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <div class="container">
+        <p>2025 CESI ESPORT - Interview réalisée dans le cadre d'un projet citoyen par L'erlenmeyer</p>
+        <div class="social-links">
+            <a href="https://x.com/Steeqix">Twitter</a> | <a href="https://www.instagram.com/cesiesport/">Instagram</a> | <a href="https://discord.gg/R4xw9hkA">Discord</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

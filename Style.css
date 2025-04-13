@@ -1,7 +1,7 @@
 :root {
     --primary-color: #313563;
-    --secondary-color: #93c5fd ;
-    --accent-color: #e74c3c;
+    --secondary-color: #333333 ;
+    --accent-color: #FFB84D;
     --text-color: #333;
     --light-bg: #f5f5f5;
     --card-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -25,6 +25,11 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+.logo_cesi_esport {
+    margin-top: -50px;
+    width: 300px;
+    height: auto;
+}
 
 header {
     background-color: var(--secondary-color);
@@ -34,6 +39,8 @@ header {
 }
 
 header h1 {
+    margin-top: -30px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
 

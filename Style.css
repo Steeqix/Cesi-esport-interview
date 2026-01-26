@@ -1,148 +1,530 @@
+/* ========================================
+   VARIABLES GLOBALES
+   ======================================== */
 :root {
-    --primary-color: #313563;
-    --secondary-color: #333333 ;
-    --accent-color: #FFB84D;
-    --text-color: #333;
-    --light-bg: #f5f5f5;
-    --card-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    --primary: #313563;
+    --secondary: #1a1a1a;
+    --accent: #FFB84D;
+    --text-color: #2d3436;
+    --light-bg: #fdfdfd;
+    --dark-bg: #0a0a0a;
+    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --card-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+/* ========================================
+   RESET & BASE
+   ======================================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    color: var(--text-color);
-    line-height: 1.6;
-    background-color: var(--light-bg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+    line-height: 1.8;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-.logo_cesi_esport {
-    margin-top: -50px;
-    width: 300px;
-    height: auto;
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition);
 }
 
-header {
-    background-color: var(--secondary-color);
-    color: white;
-    padding: 20px 0;
+a:hover {
+    color: var(--accent);
+}
+
+/* ========================================
+   STYLES PAGE D'ACCUEIL (INDEX)
+   ======================================== */
+.index-body {
+    background: var(--dark-bg);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Arrière-plan animé */
+.bg-animated {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: radial-gradient(ellipse at top, #1a1a2e 0%, #0a0a0a 100%);
+}
+
+.bg-animated::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: var(--gradient-1);
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.1;
+    top: -250px;
+    right: -100px;
+    animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(100px, 100px) scale(1.1); }
+}
+
+.index-header {
+    padding: 100px 20px 60px;
     text-align: center;
+}
+
+.index-header h1 {
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    font-weight: 900;
+    background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 15px;
+}
+
+/* Grille de cartes */
+.interview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding-bottom: 80px;
+}
+
+.interview-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: var(--transition);
+    backdrop-filter: blur(10px);
+}
+
+.interview-card:hover {
+    transform: translateY(-12px);
+    border-color: var(--accent);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.card-image {
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.interview-card:hover .card-image img {
+    transform: scale(1.1);
+}
+
+.category-tag {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: var(--accent);
+    color: var(--secondary);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card-body h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.card-body p {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.btn-link {
+    display: inline-block;
+    color: var(--accent);
+    font-weight: 700;
+    padding: 10px 20px;
+    border: 2px solid var(--accent);
+    border-radius: 25px;
+    transition: var(--transition);
+}
+
+.btn-link:hover {
+    background: var(--accent);
+    color: var(--dark-bg);
+}
+
+/* ========================================
+   STYLES PAGES INTERVIEWS
+   ======================================== */
+.interview-page {
+    background: var(--light-bg);
+    color: var(--text-color);
+}
+
+/* Header des pages interview */
+header {
+    position: relative;
+    background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, transparent 100%);
+    padding: 40px 20px 60px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.header-nav {
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-link {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.back-link:hover {
+    color: var(--accent);
+    transform: translateX(-5px);
+}
+
+.header-logo {
+    height: 50px;
+}
+
+.brand {
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 header h1 {
-    margin-top: -30px;
-    font-size: 50px;
-    margin-bottom: 10px;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 900;
+    background: linear-gradient(135deg, #fff 0%, #a0a0a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 15px;
 }
 
-.intro {
-    padding: 40px 0;
-    text-align: center;
-}
-
-.intro p {
-    max-width: 800px;
-    margin: 0 auto 20px;
+.subtitle {
+    color: rgba(255,255,255,0.6);
     font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.header-line {
+    width: 80px;
+    height: 4px;
+    background: var(--accent);
+    margin: 30px auto 0;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Intro Box */
+.intro-box {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-left: 4px solid var(--accent);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.intro-box p {
+    color: rgba(255,255,255,0.8);
+    line-height: 1.8;
+}
+
+.intro-box strong {
+    color: var(--accent);
+}
+
+/* Featured Image */
+.featured-figure {
+    margin: 60px 0;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
 }
 
 .featured-image {
-    display: block;
-    margin: 30px auto;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-    box-shadow: var(--card-shadow);
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.featured-figure:hover .featured-image {
+    transform: scale(1.05);
 }
 
 .image-caption {
+    background: rgba(0,0,0,0.8);
+    padding: 15px 20px;
     text-align: center;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.9rem;
     font-style: italic;
-    margin-bottom: 30px;
-    color: #666;
 }
 
-.interview-section {
-    background-color: white;
-    padding: 40px;
-    margin: 30px 0;
-    border-radius: 8px;
-    box-shadow: var(--card-shadow);
+.mid-figure {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.mid-figure img {
+    max-width: 300px;
+    border-radius: 12px;
+}
+
+/* Q&A Section */
+.qa-container {
+    margin-top: 60px;
+}
+
+.qa-block {
+    margin-bottom: 50px;
 }
 
 .question {
-    font-weight: bold;
-    color: var(--primary-color);
-    margin-top: 25px;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #fff;
+    margin: 50px 0 20px;
+    padding-left: 20px;
+    border-left: 4px solid var(--accent);
 }
 
 .answer {
-    margin-bottom: 85px;
-    text-align: justify;
+    margin-bottom: 40px;
 }
 
 .answer p {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.8);
 }
 
-footer {
-    background-color: var(--secondary-color);
-    color: white;
+.answer strong {
+    color: var(--accent);
+}
+
+.answer a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    transition: all 0.3s ease;
+}
+
+.answer a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+/* Quote Box (Thomas page) */
+.quote-box {
+    background: rgba(240, 147, 251, 0.1);
+    border: 1px solid rgba(240, 147, 251, 0.3);
+    border-left: 4px solid #f093fb;
+    padding: 40px;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    margin: 60px 0;
+    color: #fff;
+}
+
+/* Conclusion Box */
+.conclusion-box {
+    background: linear-gradient(135deg, rgba(49, 53, 99, 0.3) 0%, rgba(255, 184, 77, 0.1) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 40px;
+    border-radius: 16px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.conclusion-box p {
+    color: rgba(255,255,255,0.9);
+    line-height: 1.8;
+}
+
+.conclusion-box a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 2px solid var(--accent);
+    transition: all 0.3s ease;
+}
+
+.conclusion-box a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+/* Conclusion Card (Thomas page) */
+.conclusion-card {
+    background: linear-gradient(135deg, rgba(240, 147, 251, 0.2) 0%, rgba(245, 87, 108, 0.2) 100%);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 50px;
+    border-radius: 16px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.conclusion-card p {
+    color: rgba(255,255,255,0.9);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.conclusion-card a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 2px solid var(--accent);
+    transition: all 0.3s ease;
+}
+
+.conclusion-card a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.author-signature {
+    margin-top: 25px;
+    color: var(--accent);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+footer {
+    background: rgba(255,255,255,0.02);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 50px 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p {
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 20px;
 }
 
 .social-links {
-    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .social-links a {
-    color: white;
-    margin: 0 10px;
+    color: rgba(255,255,255,0.6);
     text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.social-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.3s ease;
 }
 
 .social-links a:hover {
-    text-decoration: underline;
-    color: var(--accent-color);
+    color: var(--accent);
 }
 
-.bds {
-    max-width: 200px;
-    margin: 20px auto;
-    display: block;
+.social-links a:hover::after {
+    width: 100%;
 }
 
-.conclusion {
-    margin-top: 70px;
-    margin-bottom: 15px;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: justify;
+.index-body footer {
+    background: rgba(0,0,0,0.5);
+    border-top-color: rgba(255,255,255,0.1);
 }
 
+/* ========================================
+   RESPONSIVE
+   ======================================== */
 @media (max-width: 768px) {
-    .interview-section {
-        padding: 20px;
+    header {
+        padding: 30px 20px;
     }
 
-    .intro p {
-        font-size: 1rem;
+    .header-nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container {
+        padding: 40px 15px;
     }
 
     .question {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    }
+
+    .quote-box {
+        font-size: 1.2rem;
+        padding: 30px;
+    }
+
+    .interview-grid {
+        grid-template-columns: 1fr;
     }
 }
